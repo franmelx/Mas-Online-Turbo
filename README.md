@@ -8,6 +8,10 @@ Extensión independiente para Microsoft Edge y Google Chrome que reduce consulta
 redundantes durante la navegación del catálogo de
 [masonline.com.ar](https://www.masonline.com.ar/).
 
+[Descargar la última versión](https://github.com/franmelx/Mas-Online-Turbo/releases/latest) ·
+[Privacidad](https://franmelx.github.io/Mas-Online-Turbo/privacy.html) ·
+[Soporte](https://franmelx.github.io/Mas-Online-Turbo/support.html)
+
 ![Vista de MasOnline Turbo](store-assets/screenshot-1280x800.png)
 
 > MasOnline Turbo no está afiliada, patrocinada ni respaldada por MasOnline,

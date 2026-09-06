@@ -9,8 +9,9 @@
 
 ## Antes de cargarla
 
-1. Publicar `docs/` en HTTPS con GitHub Pages y comprobar que las
-   URLs de privacidad y soporte son públicas sin iniciar sesión.
+1. Usar estas páginas públicas en las fichas de las tiendas:
+   - Privacidad: `https://franmelx.github.io/Mas-Online-Turbo/privacy.html`
+   - Soporte: `https://franmelx.github.io/Mas-Online-Turbo/support.html`
 2. Ejecutar las pruebas manuales de `store-assets/SUBMISSION-CHECKLIST.md` en
    las versiones estables de Edge y Chrome.
 3. Si se modifica código o el manifiesto, incrementar la versión y volver a

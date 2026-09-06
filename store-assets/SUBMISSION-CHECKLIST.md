@@ -3,7 +3,7 @@
 ## Bloqueantes que debe completar el propietario
 
 - [x] Reemplazar el contacto pendiente en `PRIVACY.md`.
-- [ ] Publicar `PRIVACY.md` en una URL HTTPS estable.
+- [x] Publicar la política de privacidad en una URL HTTPS estable.
 - [x] Crear o indicar una URL de soporte.
 - [ ] Elegir el nombre público del desarrollador.
 - [ ] Revisar disponibilidad por países.
