@@ -1,0 +1,27 @@
+{
+  "name": "masonline-turbo",
+  "version": "0.4.2",
+  "private": true,
+  "description": "Extensión MV3 que reduce solicitudes redundantes del catálogo de MasOnline.",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Franco Melo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franmelx/Mas-Online-Turbo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/franmelx/Mas-Online-Turbo/issues"
+  },
+  "homepage": "https://github.com/franmelx/Mas-Online-Turbo#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node --check src/core.js && node --check src/main.js && node --check src/content.js && node --check src/popup.js && node --check src/service-worker.js",
+    "assets": "NODE_PATH=$(npm root -g) node scripts/render-store-assets.js",
+    "test:browser": "NODE_PATH=$(npm root -g) node scripts/smoke-browser.js",
+    "audit:live": "NODE_PATH=$(npm root -g) node scripts/audit-live-scroll.js",
+    "release": "bash scripts/package-release.sh"
+  }
+}

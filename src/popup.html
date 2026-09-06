@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MasOnline Turbo</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header><h1>MasOnline Turbo</h1><span id="status">Conectando…</span></header>
+  <main>
+    <label><input id="enabled" type="checkbox"> Activar extensión</label>
+    <label><input id="dedupe" type="checkbox"> Eliminar duplicados concurrentes</label>
+    <label><input id="batchSimulation" type="checkbox"> Agrupar consultas de stock y precio</label>
+    <fieldset>
+      <legend>Experimental</legend>
+      <label><input id="experimental" type="checkbox"> Habilitar respuestas sintéticas</label>
+      <label><input id="syntheticProductQuery" type="checkbox"> ProductQuery local</label>
+      <label><input id="syntheticHighlights" type="checkbox"> Destacados locales</label>
+      <label><input id="syntheticSimulation" type="checkbox"> Simulación comercial local</label>
+    </fieldset>
+    <dl>
+      <div><dt>Observadas</dt><dd id="observed">0</dd></div>
+      <div><dt>Red</dt><dd id="network">0</dd></div>
+      <div><dt>Duplicadas evitadas</dt><dd id="deduplicated">0</dd></div>
+      <div><dt>Recuperadas de caché</dt><dd id="cacheHits">0</dd></div>
+      <div><dt>Respuestas locales</dt><dd id="synthetic">0</dd></div>
+      <div><dt>Productos indexados</dt><dd id="productsIndexed">0</dd></div>
+      <div><dt>Alternativas de red</dt><dd id="fallbacks">0</dd></div>
+    </dl>
+    <button id="clear" type="button">Vaciar caché y métricas</button>
+    <p id="notice" role="status" aria-live="polite"></p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+node_modules/
+release/
+.DS_Store
+Thumbs.db
+*.log
+coverage/
+playwright-report/
+test-results/
+.cache/
+.tmp/

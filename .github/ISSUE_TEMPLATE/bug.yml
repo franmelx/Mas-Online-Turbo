@@ -1,0 +1,35 @@
+name: Reportar un problema
+description: Informar un fallo reproducible de rendimiento, catálogo o carrito.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: No incluyas cookies, tokens, direcciones, checkout ni información de pago.
+  - type: input
+    id: version
+    attributes:
+      label: Versión de la extensión
+      placeholder: 0.4.2
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Navegador y versión
+      placeholder: Edge 140
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducirlo
+      description: Indica búsqueda, filtros, scroll o acción de carrito sin datos personales.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado y resultado observado
+    validations:
+      required: true

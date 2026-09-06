@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "MasOnline Turbo",
+  "version": "0.4.2",
+  "description": "Reduce solicitudes redundantes de MasOnline y muestra métricas locales de rendimiento.",
+  "icons": {
+    "16": "assets/icons/icon-16.png",
+    "32": "assets/icons/icon-32.png",
+    "48": "assets/icons/icon-48.png",
+    "128": "assets/icons/icon-128.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://www.masonline.com.ar/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.masonline.com.ar/*"],
+      "js": ["src/core.js", "src/main.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://www.masonline.com.ar/*"],
+      "js": ["src/content.js"],
+      "run_at": "document_start",
+      "world": "ISOLATED"
+    }
+  ],
+  "action": {
+    "default_title": "MasOnline Turbo",
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "assets/icons/icon-16.png",
+      "32": "assets/icons/icon-32.png",
+      "48": "assets/icons/icon-48.png"
+    }
+  },
+  "background": {
+    "service_worker": "src/service-worker.js"
+  }
+}

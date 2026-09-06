@@ -1,0 +1,130 @@
+MasOnline Turbo Source-Available License 1.0
+
+Copyright (c) 2026 Franco Melo. All rights reserved except as expressly granted below.
+
+1. Definitions
+
+"Software" means this repository and every file distributed with it, including
+source code, documentation, tests, images, and modified or derived versions.
+
+"Licensor" means Franco Melo.
+
+"Commercial Use" means use of the Software that is intended for, supports, or
+results in direct or indirect financial benefit. It includes sale, licensing,
+subscriptions, paid support, consulting, advertising, sponsorship, affiliate
+revenue, lead generation, operation of a paid product or service, and internal
+business use that contributes to revenue or cost reduction. Voluntary donations
+to a Qualifying Open Project are not Commercial Use when no access, feature,
+service, or other benefit is supplied in exchange.
+
+"Qualifying Open Project" means a project that:
+
+  a. makes its complete corresponding source code publicly accessible without
+     an access fee;
+  b. includes reproducible build or installation instructions;
+  c. preserves this copyright notice, this license, and prominent attribution;
+  d. distributes every part copied or derived from the Software under this
+     same license; and
+  e. is not used for a Commercial Use unless the Licensor has granted a
+     separate written commercial license.
+
+"AI System" means any artificial intelligence, machine learning, statistical
+learning, generative model, foundation model, code assistant, retrieval system,
+embedding system, dataset pipeline, or substantially similar technology.
+
+2. Permission grant
+
+Subject to every condition in this license, the Licensor grants you a limited,
+worldwide, non-exclusive, non-transferable, non-sublicensable, revocable,
+royalty-free license to:
+
+  a. run the Software for personal, educational, evaluation, or non-commercial
+     research purposes;
+  b. inspect and modify the Software privately for those purposes; and
+  c. copy, modify, and redistribute the Software solely as part of a
+     Qualifying Open Project.
+
+No right is granted by implication. Forking and displaying the repository
+through a hosting platform remains subject to that platform's terms.
+
+3. Commercial licensing
+
+Commercial Use is prohibited unless the Licensor first grants a separate,
+written, paid commercial license. Requests may be opened at:
+https://github.com/franmelx/Mas-Online-Turbo/issues
+
+4. Artificial intelligence restrictions
+
+You may not upload, submit, expose, provide, copy, or otherwise make the
+Software available to an AI System for training, pre-training, fine-tuning,
+distillation, evaluation, benchmarking, dataset creation, embeddings,
+retrieval-augmented generation, prompt or context material, code generation,
+model development, or as a basis for another work, unless either:
+
+  a. the Licensor has first provided specific written authorization; or
+  b. the activity is solely for a Qualifying Open Project, is non-commercial,
+     every model weight, dataset, training or retrieval configuration, prompt
+     or context derived from the Software, and resulting source artifact is
+     publicly available without charge, and no AI service operator may retain
+     or use the Software for an unrelated model, dataset, product, or service.
+
+Merely publishing source code or model outputs is not enough to satisfy the
+exception if the AI System, relevant dataset, weights, or reproducible process
+remain closed. An AI System may not rely on this exception to improve a closed,
+hosted, or commercially available model or service.
+
+5. Distribution conditions
+
+Every permitted copy or derivative must:
+
+  a. include this license and copyright notice without alteration;
+  b. state clearly that it is modified, if applicable;
+  c. identify MasOnline Turbo and Franco Melo as the original project and
+     author; and
+  d. avoid suggesting endorsement by the Licensor or by MasOnline, ChangoMas,
+     GDN Argentina, or VTEX.
+
+You may charge only the reasonable, direct cost of physical media for a
+permitted non-commercial distribution. You may not impose terms that conflict
+with this license.
+
+6. Contributions
+
+Unless a separate written agreement states otherwise, a contribution submitted
+to this repository is offered under this license, and the contributor represents
+that they have the right to make that offer. Copyright in the contribution
+remains with its contributor.
+
+7. Trademarks and third-party rights
+
+This license grants no trademark, trade name, logo, publicity, or patent rights.
+MasOnline Turbo is an independent project. Third-party names and marks belong to
+their respective owners. Material separately identified as third-party material
+remains subject to its own license.
+
+8. Compliance and termination
+
+Your rights terminate automatically when you breach this license. They may be
+reinstated only by the Licensor's express written permission. On termination,
+you must stop using and distributing the Software and delete copies under your
+control, except copies you are legally required to retain.
+
+9. Disclaimer and limitation of liability
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, TITLE, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY LAW,
+THE LICENSOR AND CONTRIBUTORS WILL NOT BE LIABLE FOR ANY CLAIM, LOSS, OR DAMAGES,
+INCLUDING INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES,
+ARISING FROM THE SOFTWARE OR THIS LICENSE.
+
+10. General terms
+
+If a provision is unenforceable, it will be modified only as much as necessary
+to make it enforceable, and the remaining provisions will continue in effect.
+Failure to enforce a provision is not a waiver. This license is the complete
+agreement for the rights granted here. Separate platform terms may grant that
+platform additional rights; this license does not cancel rights you separately
+grant by accepting those terms.
+
+This is a source-available license. It is not an OSI-approved open-source license.
