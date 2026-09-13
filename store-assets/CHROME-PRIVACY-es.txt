@@ -1,0 +1,56 @@
+FORMULARIO DE PRIVACIDAD — CHROME WEB STORE
+
+DESCRIPCIÓN DE UN SOLO PROPÓSITO
+
+Mejorar el rendimiento de navegación del catálogo de masonline.com.ar mediante la deduplicación, agrupación y caché temporal de solicitudes de red, sin alterar pagos, autenticación ni checkout.
+
+JUSTIFICACIÓN DE STORAGE
+
+Se utiliza para guardar localmente las preferencias elegidas por el usuario y contadores agregados de rendimiento separados por pestaña. La información permanece en el almacenamiento administrado por Chrome, puede borrarse desde el panel de la extensión y no se transmite a servidores del desarrollador ni a terceros.
+
+JUSTIFICACIÓN DEL PERMISO DE HOST
+
+El acceso a https://www.masonline.com.ar/* es necesario para ejecutar el optimizador únicamente en el sitio compatible. La extensión observa window.fetch desde el inicio de la página para deduplicar solicitudes idénticas, agrupar consultas de stock y precio y mantener cachés breves del catálogo. No se ejecuta en otros dominios y las operaciones de autenticación, carrito, pagos y checkout siempre se envían directamente a la tienda sin respuestas sintéticas.
+
+¿USAS CÓDIGO REMOTO?
+
+No, no estoy usando código remoto.
+
+No completar una justificación de código remoto. Todo el JavaScript ejecutable está incluido dentro del paquete de la extensión.
+
+DATOS QUE PROCESA LA EXTENSIÓN
+
+Marcar:
+
+- Información de autenticación.
+- Ubicación.
+- Historial web.
+- Actividad del usuario.
+- Contenido de sitios web.
+
+No marcar:
+
+- Información de identificación personal.
+- Información de salud.
+- Información financiera y de pagos.
+- Comunicaciones personales.
+
+MOTIVO DE LAS DECLARACIONES
+
+La extensión procesa esos datos únicamente de forma local. Compara de manera opaca las cookies vtex_session y vtex_segment para detectar cambios de sesión o región, observa las URLs y solicitudes realizadas dentro de masonline.com.ar, mantiene contadores técnicos de red y almacena temporalmente respuestas del catálogo. No decodifica ni registra las cookies, no crea un historial de navegación y no transmite información al desarrollador ni a terceros. Google exige declarar incluso el procesamiento local.
+
+CERTIFICACIONES DE USO LIMITADO
+
+Marcar las tres declaraciones:
+
+- No vendo ni transfiero datos de usuarios a terceros, salvo en los casos aprobados.
+- No uso ni transfiero datos de usuarios para fines que no estén relacionados con el propósito único de la extensión.
+- No uso ni transfiero datos de usuarios para determinar solvencia crediticia ni para otorgar préstamos.
+
+URL DE LA POLÍTICA DE PRIVACIDAD
+
+https://franmelx.github.io/Mas-Online-Turbo/privacy.html
+
+GUARDADO
+
+Pulsar Guardar borrador. No enviar a revisión hasta que las secciones Paquete, Ficha de Play Store, Privacidad, Distribución e Instrucciones de la prueba estén completas y sin advertencias.
